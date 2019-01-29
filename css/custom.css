@@ -1,9 +1,9 @@
 /*! Place your custom styles here */
 *{
-	font-family: 'Major Mono Display', monospace;
+	font-family: 'Poppins', sans-serif;
 }
 body,h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
-	font-family: 'Major Mono Display', monospace!important;
+	font-family: 'Poppins', sans-serif!important;
 }
 .bar .logo {
     max-height: 100%;
