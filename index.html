@@ -51,7 +51,7 @@
                 </div>
             </div>
         </div>
-        <div class="main-container">
+        <div class="main-container" id="inicio">
            <section class="cover height-80 imagebg text-center parallax" data-overlay="5">
                 <div class="background-image-holder background--top"> <img alt="background" src="img/back.jpg"> </div>
                 <div class="container pos-vertical-center">
@@ -172,7 +172,7 @@
                 </div>
             </footer>
         </div>
-        <a class="back-to-top inner-link" href="#start" data-scroll-class="100vh:active">
+        <a class="back-to-top inner-link" href="#inicio" data-scroll-class="100vh:active">
             <i class="stack-interface stack-up-open-big"></i>
         </a>
         <script src="js/jquery-3.1.1.min.js"></script>
@@ -195,6 +195,7 @@
                 // ----------- LOADER
  $(window).on('load', function () {
       $("#loader").fadeOut("slow");
+      $("#inicio").fadeIn("slow");
  });
         </script>
     </body>
